@@ -16,6 +16,7 @@
 		FD3D9E5A27E130B5002E4AAD /* New_s_upTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3D9E5927E130B5002E4AAD /* New_s_upTests.swift */; };
 		FD3D9E6427E130B5002E4AAD /* New_s_upUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3D9E6327E130B5002E4AAD /* New_s_upUITests.swift */; };
 		FD3D9E6627E130B5002E4AAD /* New_s_upUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3D9E6527E130B5002E4AAD /* New_s_upUITestsLaunchTests.swift */; };
+		FD3D9E7327E134A1002E4AAD /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3D9E7227E134A1002E4AAD /* NewsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		FD3D9E5F27E130B5002E4AAD /* New's upUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "New's upUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD3D9E6327E130B5002E4AAD /* New_s_upUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = New_s_upUITests.swift; sourceTree = "<group>"; };
 		FD3D9E6527E130B5002E4AAD /* New_s_upUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = New_s_upUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FD3D9E7227E134A1002E4AAD /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				FD3D9E4B27E130B5002E4AAD /* Assets.xcassets */,
 				FD3D9E4D27E130B5002E4AAD /* LaunchScreen.storyboard */,
 				FD3D9E5027E130B5002E4AAD /* Info.plist */,
+				FD3D9E7227E134A1002E4AAD /* NewsViewController.swift */,
 			);
 			path = "New's up";
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 				FD3D9E4727E130B4002E4AAD /* ViewController.swift in Sources */,
 				FD3D9E4327E130B4002E4AAD /* AppDelegate.swift in Sources */,
 				FD3D9E4527E130B4002E4AAD /* SceneDelegate.swift in Sources */,
+				FD3D9E7327E134A1002E4AAD /* NewsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
