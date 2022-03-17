@@ -21,7 +21,7 @@ class NewsViewController: UIViewController, UITableViewDataSource, UITableViewDe
         
         // Do any additional setup after loading the view.
         
-        let url = URL(string: "https://newsdata.io/api/1/news?apikey=pub_5505d185c194f5c5e875a66fd65668d7eafd&country=us,cn&language=en,zh&category=politics,technology&page=3")!
+        let url = URL(string: "https://newsdata.io/api/1/news?apikey=pub_5505d185c194f5c5e875a66fd65668d7eafd&country=us,cn&language=en,zh&category=politics,technology&page=0")!
         
         /*let url = URL(string: "https://newsdata.io/api/1/news?apikey=pub_5505538662f18408bffd425a1fa646b06dbc&country=us,cn&language=en,zh&category=politics,technology&page=1")!  page = 1 means the second page */
         let request = URLRequest(url: url, cachePolicy: .reloadIgnoringLocalCacheData, timeoutInterval: 10)
